@@ -1,9 +1,8 @@
 body {
    margin: 0 auto;
    padding: 0;
-   width: 75%;
    font-family: 'Lato', sans-serif;
-   background: rgb(207, 12, 12);
+   background: #fff;
    line-height: 1.2;
    overflow-x: hidden;
 }
@@ -49,8 +48,8 @@ a:hover {
 
 .container {
    width: 100%;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 200px;
+   padding-left: 200px;
    margin-right: auto;
    margin-left: auto;
 }

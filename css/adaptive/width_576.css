@@ -1,10 +1,4 @@
 @media (max-width: 576px) {
-  .container {
-   max-width: 540px;
-   padding-right: 0;
-   padding-left: 0;
-   }
-
   .row {
    flex-direction: column;
  }

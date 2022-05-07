@@ -1,8 +1,7 @@
 @media (max-width: 992px) {
    .container {
-     max-width: 960px;
-     padding-right: 15px;
-     padding-left: 15px;
+      padding-right: 0;
+      padding-left: 0;
    }
 
    .row {
