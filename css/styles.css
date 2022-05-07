@@ -1,0 +1,5 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+/* STYLES */
+@import url(../scss/source/styles.scss);
