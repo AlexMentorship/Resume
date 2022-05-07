@@ -1,0 +1,18 @@
+// MAIN
+@import "./main";
+
+// RIGHT COLUMN
+@import "../right/interests";
+@import "../right/page";
+
+// LEFT COLUMN
+@import "../left/intro";
+@import "../left/profile";
+@import "../left/contact";
+@import "../left/skills";
+
+// ADAPTIVE
+@import "../adaptive/width-1200";
+@import "../adaptive/width-992";
+@import "../adaptive/width-768";
+@import "../adaptive/width-576";
