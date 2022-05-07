@@ -1,0 +1,80 @@
+// BODY
+$font-stack:   'Lato', sans-serif;
+$body-color:               #fff;
+// LINK
+$link-color:            #f8fafb;
+$link-color-hover:      #0f557b;
+// LEFT COLUMN
+$left-color:            #f5f7f7;
+$left-background:       #1283c3;
+$left-title-color:      #1283c3;
+$left-title-background: #fefefd;
+$left-icon-color:       #fefefd;
+$left-icon-background:  #1283c3;
+// LEFT SKILL
+$left-skill-color:      #f5f7f7;
+$left-skill-before:     #0f557b;
+// RIGHT COLUMN
+$right-color:           #4c4c4d;
+$right-background:      #f5f7f7;
+$right-title-color:     #fefefd;
+$right-title-background:#1283c3;
+$right-icon-color:      #1283c3;
+$right-icon-background: #fefefd;
+// RIGHT PLUS ICON
+$speciality-icon:       #1283c3;
+// RIGHT INTERESTS
+$interest-icon:         #1283c3;
+
+body {
+   margin: 0 auto;
+   padding: 0;
+   font-family: $font-stack;
+   background: $body-color;
+   line-height: 1.2;
+   overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+ }
+
+a {
+   text-decoration: none;
+   color: $link-color;
+   transition: color .2s linear;
+   &:hover {
+      color: $link-color-hover;
+   }
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+}
+
+.left {
+   width: 30%;
+   padding: 60px 0;
+   color: $left-color;
+   background: $left-background;
+}
+
+.right {
+   width: 70%;
+   padding: 60px 0;
+   color: $right-color;
+   background: $right-background;
+}
+
+.container {
+   width: 100%;
+   padding-right: 200px;
+   padding-left: 200px;
+   margin-right: auto;
+   margin-left: auto;
+}
