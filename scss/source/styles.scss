@@ -1,0 +1,18 @@
+// MAIN
+@import url(main.scss);
+
+// RIGHT COLUMN
+@import url(/right/interests.scss);
+@import url(/right/page.scss);
+
+// LEFT COLUMN
+@import url(/left/intro.scss);
+@import url(/left/profile.scss);
+@import url(/left/contact.scss);
+@import url(/left/skills.scss);
+
+// ADAPTIVE
+@import url(/adaptive/width-1200.scss);
+@import url(/adaptive/width-992.scss);
+@import url(/adaptive/width-768.scss);
+@import url(/adaptive/width-576.scss);
