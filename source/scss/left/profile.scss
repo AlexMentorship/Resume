@@ -1,0 +1,22 @@
+.leftTitle {
+   margin-left: 30px;
+   font-size: 22px;
+   background: $left-title-background;
+   color: $left-title-color;
+   text-transform: uppercase;
+   border-radius: 40px 0 0 40px;
+   i {
+      margin: 2px 10px 2px 2px;
+      padding: 7px;
+      background: $left-icon-background;
+      color: $left-icon-color;
+      border-radius: 50%;
+   }
+}
+
+.profText {
+   text-align: justify;
+   font-size: 17px;
+   font-style: italic;
+   padding: 30px 30px 60px;
+}

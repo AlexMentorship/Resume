@@ -1,8 +1,7 @@
 @media (max-width: 1200px) {
    .container {
-     max-width: 1140px;
-     padding-left: 0;
-     padding-right: 0;
+      padding-left: 100px;
+      padding-right: 100px;
    }
 
    .row {
@@ -46,21 +45,19 @@
 
    .skillsItem {
       font-size: 15px;
-   }
-
-   .skillsItem::before {
-      top: 38px;
+      &::before {
+         top: 38px;
+      }
    }
 
    /* RIGHT COLUMN */
    .rightTitle {
       font-size: 21px;
       margin-left: 80px;
-   }
-
-   .rightTitle i {
-      font-size: 21px;
-      margin: 2px 30px 2px 2px;
+      i {
+         font-size: 21px;
+         margin: 2px 30px 2px 2px;
+      }
    }
 
    .pageItem {
@@ -69,11 +66,10 @@
 
    .speciality {
       font-size: 18px;
-   }
-
-   .speciality i {
-      padding-right: 37px;
-      font-size: 18px;
+      i {
+         padding-right: 37px;
+         font-size: 18px;
+      }
    }
 
    .pageSubTit {

@@ -8,19 +8,18 @@
    margin-left: 150px;
    font-size: 27px;
    font-weight: 700;
-   background: #1283c3;
-   color: #fefefd;
+   background: $right-title-background;
+   color: $right-title-color;
    text-transform: uppercase;
    border-radius: 40px 0 0 40px;
-}
-
-.rightTitle i {
-   margin: 2px 40px 2px 2px;
-   padding: 10px;
-   font-size: 27px;
-   background: #fefefd;
-   color: #1283c3;
-   border-radius: 50%;
+   i {
+      margin: 2px 40px 2px 2px;
+      padding: 10px;
+      font-size: 27px;
+      background: $right-icon-background;
+      color: $right-icon-color;
+      border-radius: 50%;
+   }
 }
 
 .pageItem {
@@ -35,13 +34,12 @@
    padding-bottom: 5px;
    font-size: 22px;
    text-transform: uppercase;
-}
-
-.speciality i {
-   padding-right: 40px;
-   font-size: 22px;
-   color: #1283c3;
-   cursor: pointer;
+   i {
+      padding-right: 40px;
+      font-size: 22px;
+      color: $speciality-icon;
+      cursor: pointer;
+   }
 }
 
 .pageInfo {
